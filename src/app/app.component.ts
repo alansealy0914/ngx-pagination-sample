@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { Customer } from './_models/customer.model';
-import { PagingConfig } from './_models/paging-config.model';
-import { CustomerService } from './_services/customer.service';
+import { Customer } from './models/customer.model';
+import { PagingConfig } from './models/paging-config.model';
+import { CustomerService } from './services/customer.service';
 
 @Component({
   selector: 'app-root',
